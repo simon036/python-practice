@@ -1,0 +1,7 @@
+python is used for:
+    CLIs
+    web  apps
+    web servers
+    games
+    web scrappers
+

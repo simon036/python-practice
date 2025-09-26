@@ -1,0 +1,78 @@
+1.STRING
+example :
+    first_name = "Simon"
+    print (f"Hello {first_name}")
+
+f-strings ==> for formatting
+ ie displaying prices to 2dp
+    example :   
+        price_1 =10
+        price_2 =20
+        
+        print(f"item 1 cost ${price_1:.2f}")
+        print (f"item 2 cost ${price_2:.2f}")
+
+string methods
+    1. .upper()
+    2. .lower()
+    3. .capitalize()
+
+2 .NUMBERS
+integers and floats
+    int("1")
+    int(1.1)
+    float("1.1")
+
+3.SEQUENCE TYPES
+ list ()
+ # => []
+
+list_abc = ['a','b','c']
+list_abc[0]
+# => 'a'
+list_abc[1]
+# => 'b'
+list_abc[2]
+# => 'c'
+
+list methods    
+    .forEach
+    .map
+    etc
+example 
+        len([1, 3, 400, 7])
+        # 4
+        sorted([5, 100, 234, 7, 2])
+        # [2, 5, 7, 100, 234]
+        list_123 = [1, 2, 3]
+        list_123.pop()
+        # 3
+        list_123.remove(1)
+        print(list_123)
+        # [2]
+
+3. Tuples
+created with open and close parentheses ()
+tuples are immutable ie once created it cannot be changed
+tuple ([1,2,3]) 
+
+4. sets and dicts
+a) sets => unindexed =random order
+        unordered =contents are in random order
+        unchangeble = cant be changed
+    
+set()
+takes a list, dictionary
+methods are same as lists
+
+b) Dictionaries
+key value pairs
+    { "key1": "value1", "key2": "value2" }
+example :
+    my_dict = { "key1": 1, "key2": 2 }
+    my_dict["key2"]
+
+methods = .get()
+
+5. Booleans
+True or False 
